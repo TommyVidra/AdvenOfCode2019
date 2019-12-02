@@ -73,12 +73,15 @@ namespace AdventOfCode2019
         {
             String path = "D:\\Projects\\AdventOfCode2019\\AdventOfCode2019\\AdventOfCode2019\\day_1_input_p1.txt";
             String[] lines = File.ReadAllLines(path, Encoding.UTF8);
-            
+
             //First part
-            partOne(lines);
+            //partOne(lines);
 
             //Part two
-            partTwo(lines);
+            //partTwo(lines);
+
+            //Day_2.partOne();
+            Day_2.partTwo();
 
             String s = Console.ReadLine();
 
