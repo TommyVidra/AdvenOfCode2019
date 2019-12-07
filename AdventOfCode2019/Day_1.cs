@@ -71,8 +71,8 @@ namespace AdventOfCode2019
 
         static void Main(string[] args)
         {
-            String path = "D:\\Projects\\AdventOfCode2019\\AdventOfCode2019\\AdventOfCode2019\\day_1_input_p1.txt";
-            String[] lines = File.ReadAllLines(path, Encoding.UTF8);
+            //String path = "D:\\Projects\\AdventOfCode2019\\AdventOfCode2019\\AdventOfCode2019\\day_1_input_p1.txt";
+            //String[] lines = File.ReadAllLines(path, Encoding.UTF8);
 
             //First part
             //partOne(lines);
@@ -81,7 +81,9 @@ namespace AdventOfCode2019
             //partTwo(lines);
 
             //Day_2.partOne();
-            Day_2.partTwo();
+            //Day_2.partTwo();
+
+            Day_3.partOne();
 
             String s = Console.ReadLine();
 
