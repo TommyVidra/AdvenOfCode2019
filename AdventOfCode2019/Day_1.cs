@@ -83,8 +83,9 @@ namespace AdventOfCode2019
             //Day_2.partOne();
             //Day_2.partTwo();
 
-            Day_3.partOne();
+            //Day_3.partOne();
 
+            Day_4.partOne();
             String s = Console.ReadLine();
 
         }

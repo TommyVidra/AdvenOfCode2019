@@ -9,3 +9,13 @@ D:\Projects\AdventOfCode2019\AdventOfCode2019\AdventOfCode2019\obj\Debug\netcore
 D:\Projects\AdventOfCode2019\AdventOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.AssemblyInfo.cs
 D:\Projects\AdventOfCode2019\AdventOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.dll
 D:\Projects\AdventOfCode2019\AdventOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.pdb
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\bin\Debug\netcoreapp2.1\AdventOfCode2019.deps.json
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\bin\Debug\netcoreapp2.1\AdventOfCode2019.runtimeconfig.json
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\bin\Debug\netcoreapp2.1\AdventOfCode2019.runtimeconfig.dev.json
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\bin\Debug\netcoreapp2.1\AdventOfCode2019.dll
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\bin\Debug\netcoreapp2.1\AdventOfCode2019.pdb
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.csprojAssemblyReference.cache
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.AssemblyInfoInputs.cache
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.AssemblyInfo.cs
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.dll
+E:\Projects\AdventOfCode2019\AdvenOfCode2019\AdventOfCode2019\obj\Debug\netcoreapp2.1\AdventOfCode2019.pdb
