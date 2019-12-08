@@ -22,9 +22,68 @@ namespace AdventOfCode2019
             return input;
         }
 
-        public static void partTwo()
+        public static void partTwo(List<int> gudPasses)
         {
 
+            var notPassing = new List<int>();
+           
+            foreach (int numb in gudPasses)
+            {
+
+                int first = numb / 100000;
+                int second = (numb / 10000) % 10;
+                int third = (numb / 1000) % 10;
+                int fourth = (numb / 100) % 10;
+                int fifth = (numb / 10) % 10;
+                int sixth = numb % 10;
+
+                bool fs = false;
+                bool st = false;
+                bool tf = false;
+                bool ff = false;
+                bool fsi = false;
+
+                if (first == second)
+                    fs = true;
+
+                if (second == third)
+                    st = true;
+
+                if (third == fourth)
+                    tf = true;
+
+                if (fourth == fifth)
+                    ff = true;
+
+                if (fifth == sixth)
+                    fsi = true;
+
+
+                if (fs && st && tf && ff && fsi)
+                    notPassing.Add(numb);
+                else if (fs && st && !tf && ff && fsi)
+                    notPassing.Add(numb);
+                else if (fs && st && !tf && !ff && !fsi)
+                    notPassing.Add(numb);
+                else if (fs && st && tf && !ff && !fsi)
+                    notPassing.Add(numb);
+                else if (fs && st && tf && ff && !fsi)
+                    notPassing.Add(numb);
+                else if (!fs && st && tf && !ff && !fsi)
+                    notPassing.Add(numb);
+                else if (!fs && !st && tf && ff && !fsi)
+                    notPassing.Add(numb);
+                else if (!fs && !st && !tf && ff && fsi)
+                    notPassing.Add(numb);
+                else if (!fs && st && tf && ff && !fsi)
+                    notPassing.Add(numb);
+                else if (!fs && !st && tf && ff && fsi)
+                    notPassing.Add(numb);
+                else if (!fs && st && tf && ff && fsi)
+                    notPassing.Add(numb);
+            }
+
+            Console.WriteLine((gudPasses.Count - notPassing.Count).ToString());
         }
 
         public static void partOne()
@@ -42,7 +101,6 @@ namespace AdventOfCode2019
                 int fourth = (numb / 100) % 10;
                 int fifth = (numb / 10) % 10;
                 int sixth = numb % 10;
-                int largest = first;
 
                 if (first == second || second == third || third == fourth || fourth == fifth || fifth == sixth)
                 {
@@ -64,8 +122,10 @@ namespace AdventOfCode2019
                     }
                 }
             }
-
+            
             Console.WriteLine(gudPasses.Count);
+
+            partTwo(gudPasses);
         }
     }
 }
